@@ -731,7 +731,7 @@ img {
     color: var(--subtle-text);
 }
 
-.modal-label-text .name {
+.modal-label-text.name {
     letter-spacing: 0.04em;
 }
 
@@ -777,7 +777,7 @@ img {
     margin-bottom: 16px;
 }
 
-.textarea {
+.modal-form-input.textarea {
     padding: 8px 16px;
     height: 120px;
     width: 100%;
@@ -787,7 +787,7 @@ img {
     background-color: transparent;
 }
 
-.textarea::placeholder {
+.modal-form-input.textarea::placeholder {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
@@ -822,10 +822,10 @@ img {
     fill: #FCFCFC;
 }
 
-.modal-label-text {
+.modal-label-text.check {
     margin-bottom: 0;
     letter-spacing: 0.04em;
-}
+} 
 
 .form-check-link {
     color: var(--primary-brand);
